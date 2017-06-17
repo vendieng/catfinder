@@ -1,0 +1,244 @@
+body {
+	font-family: Roboto;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #ffffff;
+
+}
+
+h1{
+font-family: "Roboto";
+text-align: center;
+padding-bottom:20px;
+}
+
+h2 {
+	font-family: "Roboto";
+}
+
+.Site {
+
+}
+
+
+
+.Site-wrapper {
+	max-width: 1400;
+	margin: 0 auto;
+
+
+
+}
+
+.Intro {
+	margin: 0;
+	padding: 30px;
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    align-items: center;
+	text-align: center;
+}
+
+.copy {
+	text-align: center; 
+	font-family: Roboto;
+	font-color: #000;
+
+}
+
+.MainMenu {
+	text-align: center;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	padding-top: 50px;
+}
+
+.MainMenu-item {
+	margin: auto;
+	padding: 50px auto;
+}
+
+.header{
+	max-width: 1400;
+	font-color:fff;
+	background-image: url(http://wallpapercave.com/wp/aMrf816.jpg);
+
+
+}
+
+.Blog {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    align-items: center;
+	text-align: center;
+}
+	
+
+
+.Blog-entry {
+	width: 530px;
+    height: 340px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://placekitten.com/g/1000/400);
+}
+
+
+
+
+
+.Blog-entry:hover {
+	background-size: 200%;
+
+}
+
+.Blog-entry h2 {
+
+	background-color: #fff;
+	padding: 5px 5px 5px 5px;
+
+
+
+}
+
+
+
+
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-LightItalic.eot');
+	src: url('Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-LightItalic.woff') format('woff'),
+		url('Roboto-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-Light.eot');
+	src: url('Roboto-Light.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-Light.woff') format('woff'),
+		url('Roboto-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-Italic.eot');
+	src: url('Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-Italic.woff') format('woff'),
+		url('Roboto-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-Bold.eot');
+	src: url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-Bold.woff') format('woff'),
+		url('Roboto-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-Regular.eot');
+	src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-Regular.woff') format('woff'),
+		url('Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-Medium.eot');
+	src: url('Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-Medium.woff') format('woff'),
+		url('Roboto-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-Thin.eot');
+	src: url('Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-Thin.woff') format('woff'),
+		url('Roboto-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-BoldItalic.eot');
+	src: url('Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-BoldItalic.woff') format('woff'),
+		url('Roboto-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-BlackItalic.eot');
+	src: url('Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-BlackItalic.woff') format('woff'),
+		url('Roboto-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-MediumItalic.eot');
+	src: url('Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-MediumItalic.woff') format('woff'),
+		url('Roboto-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-ThinItalic.eot');
+	src: url('Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-ThinItalic.woff') format('woff'),
+		url('Roboto-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-Black.eot');
+	src: url('Roboto-Black.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-Black.woff') format('woff'),
+		url('Roboto-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+
